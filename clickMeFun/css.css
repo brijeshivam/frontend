@@ -1,0 +1,60 @@
+#btn1 {
+  margin-left: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+#btn2 {
+  margin-left: 500px;
+  visibility: hidden;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+button {
+  color: rgb(255, 255, 255);
+  border: 2px solid #4caf50; /* Green */
+  padding: 10px 24px;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+#timer {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+ 
+}
+button:hover,
+button:focus {
+  background-color: #4caf4fa1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#text{
+    margin: center;
+    font-size: 144px;
+    
+}
+#start{
+    margin-top: 10%;
+}
+#img{
+    display: none;
+    height:50%;
+    width: 50%;
+}
