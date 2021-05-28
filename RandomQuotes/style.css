@@ -1,0 +1,37 @@
+
+#container {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: block;
+  
+}
+
+#h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.596);
+  font-size: 5vh;
+}
+#next {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  border-radius: 50%;
+  border-color: #ffffff00;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.212);
+  font-size: 3vh;
+}
+@media screen and (max-width: 600px) {
+    #h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.596);
+        font-size: 5vw;
+      } 
+}
